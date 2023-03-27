@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Linga-BO">
+  <test name="Royalty/Franchise">
+    <classes>
+      <class name="epicList_Chrome.AllClassCalling_Royalty_Franchise"/>
+    </classes>
+  </test> <!-- Royalty/Franchise -->
+</suite> <!-- Linga-BO -->

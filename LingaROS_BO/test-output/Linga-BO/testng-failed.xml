@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Linga-BO]">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Reports_Account_Level_User">
+        <methods>
+          <include name="Report_Verify_Refund_Report"/>
+          <include name="Report_Verify_Gift_Card_Report"/>
+          <include name="flushTest"/>
+          <include name="Report_Verify_Cashier_Out_Report"/>
+          <include name="Report_Verify_Discount_Report"/>
+          <include name="Report_Verify_Daily_Sale_Report"/>
+          <include name="Report_Verify_Sale_Recap_Report"/>
+          <include name="Report_Verify_Tax_Report"/>
+          <include name="Report_Verify_Account_Balance_Report"/>
+          <include name="Report_Verify_Batch_Report"/>
+          <include name="Report_Verify_Hourly_Sale_Report"/>
+        </methods>
+      </class> <!-- epicList_Chrome_Account_User.AllClassCalling_Reports_Account_Level_User -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Enterprise_Reports_Account_Level_User">
+        <methods>
+          <include name="Report_Verify_Enterprise_Sub_Category_Sale_Report"/>
+          <include name="Report_Verify_Enterprise_Sale_Summary_Report"/>
+          <include name="Report_Verify_Enterprise_Department_Sale_Report"/>
+          <include name="flushTest"/>
+          <include name="Report_Verify_Enterprise_Daily_Sale_Report"/>
+          <include name="login"/>
+          <include name="Report_Verify_Enterprise_Menu_Item_Sale_Report"/>
+          <include name="Report_Verify_Enterprise_Sale_Recap_Report"/>
+          <include name="logout"/>
+          <include name="Report_Verify_Enterprise_Category_Sale_Report"/>
+          <include name="Report_Verify_Enterprise_Hourly_Sale_Report"/>
+          <include name="Report_Verify_Enterprise_Cashier_Out_Report"/>
+          <include name="Report_Verify_Enterprise_Modifier_Sale_Report"/>
+          <include name="Report_Verify_Enterprise_Report"/>
+          <include name="Report_Verify_Enterprise_Weekly_Summary_Report"/>
+        </methods>
+      </class> <!-- epicList_Chrome_Account_User.AllClassCalling_Enterprise_Reports_Account_Level_User -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Product and Items Account User Level(failed)">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Product_Items_Account_Level_User">
+        <methods>
+          <include name="Product_And_Items_Category"/>
+          <include name="Product_And_Items_Bulk_Update"/>
+          <include name="Product_And_Items_Menu_Item"/>
+          <include name="flushTest"/>
+          <include name="login"/>
+          <include name="Product_And_Items_Departments"/>
+          <include name="Product_And_Items_Taxes"/>
+          <include name="Product_And_Items_Sub_Category"/>
+          <include name="Product_And_Items_Void_Reason"/>
+          <include name="Product_And_Items_Coursing"/>
+          <include name="Product_And_Items_Serving_Size_Levels"/>
+          <include name="Product_And_Items_Modifier_Group"/>
+          <include name="Product_And_Items_Retail_Item"/>
+          <include name="Product_And_Items_Modifiers"/>
+        </methods>
+      </class> <!-- epicList_Chrome_Account_User.AllClassCalling_Product_Items_Account_Level_User -->
+    </classes>
+  </test> <!-- Product and Items Account User Level(failed) -->
+  <test thread-count="5" name="Inventory Account User Level(failed)">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Inventory_Account_Level_User">
+        <methods>
+          <include name="Inventory_Storage_Locations"/>
+          <include name="login"/>
+          <include name="Inventory_Modfiers"/>
+          <include name="Inventory_Reports_Adjust_Inventory_Report"/>
+          <include name="Inventory_Purchases_Purchase_Orders"/>
+          <include name="Inventory_Ingredient_Categories"/>
+          <include name="Inventory_Transfer_Request"/>
+          <include name="Inventory_Sub_Receipes"/>
+          <include name="flushTest"/>
+          <include name="Inventory_Vendors"/>
+          <include name="Inventory_Purchases_Receive_Inventory_Item"/>
+          <include name="Inventory_Store_Settings"/>
+          <include name="Inventory_Transfer_Logs"/>
+          <include name="Inventory_Inventory_Items"/>
+          <include name="Inventory_Ingredient_Sub_Categories"/>
+          <include name="Inventory_Purchases_Purchase_Template"/>
+          <include name="Inventory_In_House_Units"/>
+          <include name="Inventory_Inventory_Home"/>
+          <include name="Inventory_Menu_Item"/>
+          <include name="Inventory_Sync_Inventory"/>
+          <include name="Inventory_Adjust_Inventory_Reasons"/>
+          <include name="Inventory_Low_Stocks"/>
+          <include name="Inventory_Adjust_Inventory_Item"/>
+        </methods>
+      </class> <!-- epicList_Chrome_Account_User.AllClassCalling_Inventory_Account_Level_User -->
+    </classes>
+  </test> <!-- Inventory Account User Level(failed) -->
+  <test thread-count="5" name="Central Inventory Account User Level(failed)">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Central_Inventory_Account_Level_User">
+        <methods>
+          <include name="logout"/>
+          <include name="Central_Inventory_Sync_Inventory"/>
+          <include name="Central_Inventory_Central_Kitchen"/>
+          <include name="Central_Inventory_Transfer_Request"/>
+          <include name="Central_Inventory_Central_Inventory_Menu_Configuration"/>
+          <include name="Central_Inventory_Central_WareHouse"/>
+          <include name="login"/>
+          <include name="flushTest"/>
+        </methods>
+      </class> <!-- epicList_Chrome_Account_User.AllClassCalling_Central_Inventory_Account_Level_User -->
+    </classes>
+  </test> <!-- Central Inventory Account User Level(failed) -->
+  <test thread-count="5" name="Royalty and Franchise Account User Level(failed)">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Royalty_Franchise_Account_Level_User">
+        <methods>
+          <include name="Royalty_And_Franchise_Royalty_Report"/>
+          <include name="Royalty_And_Franchise_Settings"/>
+          <include name="flushTest"/>
+          <include name="Royalty_And_Franchise_ACH_Report"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- epicList_Chrome_Account_User.AllClassCalling_Royalty_Franchise_Account_Level_User -->
+    </classes>
+  </test> <!-- Royalty and Franchise Account User Level(failed) -->
+  <test thread-count="5" name="Enterprises Licenses Account User Level(failed)">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Enterprise_Licenses_Account_Level_User">
+        <methods>
+          <include name="flushTest"/>
+          <include name="logout"/>
+          <include name="Enterprise_Licenses"/>
+          <include name="Enterprise_Developer_API_Key"/>
+          <include name="Enterprise_License_Settings"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- epicList_Chrome_Account_User.AllClassCalling_Enterprise_Licenses_Account_Level_User -->
+    </classes>
+  </test> <!-- Enterprises Licenses Account User Level(failed) -->
+  <test thread-count="5" name="Settings Account User Level(failed)">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Settings_Account_Level_User">
+        <methods>
+          <include name="Settings_Service_Charges"/>
+          <include name="Store_Settings_PUC_Settings"/>
+          <include name="Store_Settings_POS_Licenses"/>
+          <include name="Store_Settings_Kitchen_Label_Template"/>
+          <include name="Store_Settings_Wait_List"/>
+          <include name="Store_Settings_Kitchen_Receipt_Template"/>
+          <include name="flushTest"/>
+          <include name="Store_Settings_Front_End_Receipt"/>
+          <include name="Store_Settings_OT_Settings"/>
+          <include name="Store_Settings_Label_Printers"/>
+          <include name="Store_Settings_Tip_Out_Tip_Sharing_Settings"/>
+          <include name="Store_Settings_Kitchen_Printers"/>
+          <include name="Store_Settings_Printer_Reroute"/>
+          <include name="Store_Settings_Payment_Settings"/>
+          <include name="Store_Settings_Application_Settings"/>
+          <include name="Store_Settings_Delivery_Settings"/>
+          <include name="Store_Settings_Notification_Settings"/>
+          <include name="Store_Settings_KDS_Configuration"/>
+          <include name="Store_Settings_Account_Balance_Settings"/>
+          <include name="Store_Settings_Email_Receipt_Template"/>
+          <include name="Store_Settings_CDS_Settings"/>
+          <include name="Store_Settings_Receipt_Printers"/>
+          <include name="Store_Settings_ScaleBarcode_Settings"/>
+          <include name="Store_Settings_Revenue_Center_Settings"/>
+          <include name="Store_Settings_Store_Information"/>
+          <include name="Store_Other_Payment_Receipt_Template"/>
+          <include name="Store_Hourly_Settings"/>
+          <include name="login"/>
+          <include name="Store_Settings_Label_Template"/>
+          <include name="Store_Settings_SaleRecapReport_Settings"/>
+          <include name="logout"/>
+          <include name="Store_Settings_Till_Settings"/>
+        </methods>
+      </class> <!-- epicList_Chrome_Account_User.AllClassCalling_Settings_Account_Level_User -->
+    </classes>
+  </test> <!-- Settings Account User Level(failed) -->
+</suite> <!-- Failed suite [Linga-BO] -->

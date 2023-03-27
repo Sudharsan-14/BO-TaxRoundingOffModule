@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Linga-BO">
+  <test name="Enterprise Licenses">
+    <classes>
+      <class name="epicList_Chrome.AllClassCalling_Enterprise_Licenses"/>
+    </classes>
+  </test> <!-- Enterprise Licenses -->
+</suite> <!-- Linga-BO -->

@@ -1,0 +1,54 @@
+<suite name="Suite Case">
+	<test name="All Test">
+		<classes>
+
+					<class name="epicList.AddEditDelete_AttachRequest" />
+					<class name="epicList.AddEditDelete_Discount_Mix_and_Match" />
+					<class name="epicList.AddEditDelete_Discount_Mix_and_MatchSetEachItemPrice" />
+					<class name="epicList.AddEditDelete_Discount_Mix_and_MatchWithoutAutoDiscount" />
+					<class name="epicList.AddEditDelete_Discount_OpenCheckPercentage" />
+					<class name="epicList.AddEditDelete_DiscountCheckBased_Amount" />
+					<class name="epicList.AddEditDelete_DiscountCheckBased_FreeItem" />
+					<class name="epicList.AddEditDelete_DiscountCheckBased_Percentage" />					
+					<class name="epicList.AddEditDelete_DiscountCheckBased_SetPrice" />
+					<class name="epicList.AddEditDelete_DiscountItemBased_AutoDiscount" />
+					<class name="epicList.AddEditDelete_DiscountItemBased_Category" />
+					<class name="epicList.AddEditDelete_DiscountItemBased_MenuItem" />					
+					<class name="epicList.AddEditDelete_DiscountItemBased_SubCategory" />
+					<class name="epicList.AddEditDelete_DisplayGroups" />
+					<class name="epicList.AddEditDelete_GiftCard" />
+					<class name="epicList.AddEditDelete_Gratuity" />					
+					<class name="epicList.AddEditDelete_OverShortage" />
+					<class name="epicList.AddEditDelete_PaidIn" />
+					<class name="epicList.AddEditDelete_PaidOut" />
+					<class name="epicList.AddEditDelete_TareGroup" />					
+					<class name="epicList.AddEditDelete_TareGroupWithWeight" />
+					<class name="epicList.AddEditDelete_TaxExemptReasons" />
+					<class name="epicList.AddEditDelete_UpCharges_MenuItem" />
+					<class name="epicList.AddEditDelete_UpCharges_SubCategory" />					
+					<class name="epicList.AddEditDelete_UpCharges" />
+					<class name="epicList.AddEditDelete_Users" />
+					<class name="epicList.AddEditDelete_VoidReasons" />
+					<class name="epicList.Batch_Reports" />					
+					<class name="epicList.Edit_CutAndModify" />
+					<class name="epicList.EditDelete_Discount_OpenCheckAmount" />
+					<class name="epicList.EditDelete_Discount_OpenItemAmount" />
+					<class name="epicList.EditDelete_Discount_OpenItemPercentage" />			
+					<class name="epicList.Employee_Cash_Tip_Reports" />
+					<class name="epicList.Payroll_Reports" />
+					<class name="epicList.Punched_In_Out" />
+					<class name="epicList.Sort_Menu_Config_Ascending" />					
+					<class name="epicList.Sort_Menu_Config_CustomSort" />
+					<class name="epicList.Sort_Menu_Config_Decending" />
+					<class name="epicList.Verify_Employee_Attendance_Report" />
+					<class name="epicList.Verify_Employee_Gratuity_Reports" />	
+					<class name="epicList.Verify_Employee_Labour_Reports" />
+					<class name="epicList.Verify_HouseAccount_Statement_Reports" />
+					<class name="epicList.Verify_Till_Reports" />
+					
+						
+		</classes>
+	</test>
+</suite>
+		
+			

@@ -1,0 +1,10 @@
+<suite name="Suite Case">
+	<test name="All Test" preserve-order="true">
+		<classes>
+					
+					<class name="epicList.AddEditDelete_AttachRequest" />
+					<class name="epicList.AddEditDelete_VoidReasons" />
+						
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Linga-BO" parallel="false">
+  
+    <test name="Test1">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Reports_Account_Level_User"/>
+    </classes>
+  </test> <!-- Reports -->
+     <test name="Test2">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Enterprise_Reports_Account_Level_User"/>
+    </classes>
+  </test> <!-- Enterprise Reports -->
+  <test name="Product and Items Account User Level">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Product_Items_Account_Level_User"/>
+    </classes>
+  </test> <!-- Product and Items Account User Level -->
+  
+  <test name="Inventory Account User Level">
+      <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Inventory_Account_Level_User"/>
+    </classes>
+  </test> <!-- Inventory Account User Level -->
+  
+  <test name="Central Inventory Account User Level">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Central_Inventory_Account_Level_User"/>
+    </classes>
+  </test> <!-- Central Inventory Account User Level -->
+  
+  <test name="Royalty and Franchise Account User Level">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Royalty_Franchise_Account_Level_User"/>
+    </classes>
+  </test> <!-- Royalty and Franchise Account User Level -->
+  
+  <test name="Enterprises Licenses Account User Level">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Enterprise_Licenses_Account_Level_User"/>
+    </classes>
+  </test> <!-- Enterprises Licenses Account User Level -->
+  
+  <test name="Settings Account User Level">
+    <classes>
+      <class name="epicList_Chrome_Account_User.AllClassCalling_Settings_Account_Level_User"/>
+    </classes>
+  </test> <!-- Settings Account User Level -->
+  
+</suite> <!-- Suite -->
+
+
